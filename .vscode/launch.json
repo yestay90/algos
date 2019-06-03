@@ -1,0 +1,891 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PallindromMax",
+            "program": "${workspaceFolder}/LeetcodeExcercices/DynamicProgramming/FindLongestPallindromicSubstring.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BasicCalculatorII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/BasicCalculatorII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Search2dArrayII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/Search2dArrayII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ProductOfSubArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/ProductOfSubArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MinSizeSubarraySum",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/MinSizeSubarraySum.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "OnlineInterview",
+            "program": "${workspaceFolder}/LeetcodeExcercices/Toptal/OnlineInterview.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MaxSquare",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/MaxSquare.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindLCA",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/FindLCA.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SummaryRange",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/SummaryRange.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MajorityElementII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/MajorityElementII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BinaryTreesKthLastElement",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/FindTheKthSmallestElement.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BinaryTrees",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/InvertBinaryTree.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BasicCalculator",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/BasicCalculator.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RectangularArea",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithCoordinates/RectangularArea.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CountCompleteTreeNodes",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/CountCompleteTreeNodes.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ContainsDuplicates",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/ContainsDuplicates.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CombinationSumIII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/CombinationSum/CombinationSumIII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindKthElement",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/FindKthElement.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Heapify",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/Heapify.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ShipCapacity",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/ShipCapacity.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ComplemetionOfBase10",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BitManipulation/ComplemetionOfBase10.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PairsOfSong",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/PairsOfSong.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WordSearchII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WordSearch/WordSearchII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Tries",
+            "program": "${workspaceFolder}/LeetcodeExcercices/Tries/TrieNode.js"
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CourseSchedule",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithGraphs/CourseSchedule.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "IsIsomorphic",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/IsIsomorphic.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RemoveLinkedlist",
+            "program": "${workspaceFolder}/LeetcodeExcercices/LinkedList/RemoveLinkedLIst.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "HappyNumber",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithNumbers/HappyNumber.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "NumberOfIslands",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/NumberOfIslands.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BSTRightSideView",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/BSTRightSideView.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BitwiseAnd",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BitManipulation/BitwiseAnd.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "HouseRobber",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/HouseRobber.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RotateArrayAtK",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BitManipulation/NumberOfBits.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RotateArrayAtK",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/RotateArrayAtK.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindRepeatedDNASequences",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/FindRepeatedDNASequences.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindLargestNumberCombination",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/FindLargestNumberCombination.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FactorialTrailingZeroes",
+            "program": "${workspaceFolder}/LeetcodeExcercices/TrailingZeroes/FactorialTrailingZeroes.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ExcellSheetCollumnNumber",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/ExcellSheetCollumnNumber.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ExcellSheetColumns",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/ExcellSheetColumns.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CompareVersions",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/CompareVersions.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "IntersectionOfTwoList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/LinkedList/IntersectionOfTwoList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindPeak",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/FindPeakElement.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindMinInRotatedSortedArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SortedArray/FindMinInRotatedSortedArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MaxProductSubarray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/DynamicProgramming/MaxProductSubarray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "EvaluateReversePolishNotation",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WorkingWithStrings/ReverseWordsInString.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "EvaluateReversePolishNotation",
+            "program": "${workspaceFolder}/LeetcodeExcercices/EvaluateReversePolishNotation/EvaluateReversePolishNotation.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "InsertionSortList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/LinkedList/InsertionSortList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ReorderList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/LinkedList/ReorderList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WordBreakSolutionII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WordBreak/WordBreakSolution.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WordBreak",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WordBreak/WordBreak.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PreorderTraversal",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/PreorderTraversal.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SingleNumberII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SingleNumber/SingleNumberII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SingleNumber",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SingleNumber/SingleNumber.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PartitionPalindrom",
+            "program": "${workspaceFolder}/LeetcodeExcercices/Partitioning/PartitionPalindrom.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SurroundedRegions",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayProblems/SurroundedRegions.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "LongestConsecutiveSequence",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ConsecuitiveSequence/LongestConsecutiveSequence.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WordLadder",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WordLadder/WordLadder.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SumRootToLeafNumbers",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/SumRootToLeafNumbers.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ValidPalindrom",
+            "program": "${workspaceFolder}/LeetcodeExcercices/Palindrome/ValidPalindrom.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BestTimeToBuySellStockIII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BestTimeToBuySellStock/BestTimeToBuySellStockIII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BestTimeToBuySellStock",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BestTimeToBuySellStock/BestTimeToBuySellStock.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "GetMinPathTriangle",
+            "program": "${workspaceFolder}/LeetcodeExcercices/PascalTriangle/GetMinPathTriangle.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PascalTriangleII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/PascalTriangle/PascalTriangleII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PopulatingNextRightPointer",
+            "program": "${workspaceFolder}/LeetcodeExcercices/PascalTriangle/PascalTriangleI.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PopulatingNextRightPointer",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/PopulatingNextRightPointer.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FlattenBinaryToListToLinkedList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/FlattenBinaryToListToLinkedList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PathSumII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/PathSumII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PathSum",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/PathSum.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BalancedBinaryTree",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/BalancedBinaryTree.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ConcstrauctBSTFromSortedArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/ConcstrauctBSTFromSortedArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BinaryOrderLevelTraversalII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/BinaryOrderLevelTraversalII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ConstructBinaryTreeFromInorderAndPostOrder",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/ConstructBinaryTreeFromInorderAndPostOrder.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ConstructorBinaryTreePreOrderInOrder",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/ConstructorBinaryTreeFromInorderPreOrder.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BinaryTreeMaxDepth",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTrees/BinaryTreeMaxDepth.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BinaryTreeZigzagOrderTraversal",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTreeZigzagOrderTraversal.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "BinaryTreeLevelOrderTraversal",
+            "program": "${workspaceFolder}/LeetcodeExcercices/BinaryTreeLevelOrderTraversal.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "IsSymmetricTree",
+            "program": "${workspaceFolder}/LeetcodeExcercices/IsSymmetricTree.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "IsTheSameTree",
+            "program": "${workspaceFolder}/LeetcodeExcercices/IsTheSameTree.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ValidateBinarySearchTree",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ValidateBinarySearchTree.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "UniqueBinarySearchTreeCount",
+            "program": "${workspaceFolder}/LeetcodeExcercices/UniqueBinarySearchTreeCount.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "UniqueBinarySearchTreeIISolution",
+            "program": "${workspaceFolder}/LeetcodeExcercices/UniqueBinarySearchTreeIISolution.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "UniqueBinarySearchTreeII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/UniqueBinarySearchTreeII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "TreeInOrderTraverse",
+            "program": "${workspaceFolder}/LeetcodeExcercices/TreeInOrderTraverse.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ReverseLinkedListBetween",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ReverseLinkedListBetween.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ReverseLinkedList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ReverseLinkedList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "DecodeWaysSolution",
+            "program": "${workspaceFolder}/LeetcodeExcercices/DecodeWaysSolution.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "DecodeWays",
+            "program": "${workspaceFolder}/LeetcodeExcercices/DecodeWays.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SubsetII",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SubsetII.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "GrayCode",
+            "program": "${workspaceFolder}/LeetcodeExcercices/GrayCode.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MergeSortedArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/MergeSortedArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PartitionLIst",
+            "program": "${workspaceFolder}/LeetcodeExcercices/PartitionLIst.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "LargestRectangleInHistogramStack",
+            "program": "${workspaceFolder}/LeetcodeExcercices/LargestRectangleInHistogramStack.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "LargestRectangleInHistogram",
+            "program": "${workspaceFolder}/LeetcodeExcercices/LargestRectangleInHistogram.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RemoveDuplicatesFromSortedList2",
+            "program": "${workspaceFolder}/LeetcodeExcercices/RemoveDuplicatesFromSortedList2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RemoveDuplicatesFromSortedList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/RemoveDuplicatesFromSortedList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SearchInRotatedSortedArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SearchInRotatedSortedArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RemoveDuplicates",
+            "program": "${workspaceFolder}/LeetcodeExcercices/RemoveDuplicates.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "WordSearch",
+            "program": "${workspaceFolder}/LeetcodeExcercices/WordSearch.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Subsets",
+            "program": "${workspaceFolder}/LeetcodeExcercices/Subsets.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Combinations",
+            "program": "${workspaceFolder}/LeetcodeExcercices/Combinations.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SortColorsOtherDecision",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SortColorsOtherDecision.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SortColors",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SortColors.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Search2dMatrix",
+            "program": "${workspaceFolder}/LeetcodeExcercices/Search2dMatrix.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SetMatrixZeroes",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SetMatrixZeroes.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SqrtX",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SqrtX.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "AddBinary",
+            "program": "${workspaceFolder}/LeetcodeExcercices/AddBinary.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PlusOne",
+            "program": "${workspaceFolder}/LeetcodeExcercices/PlusOne.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MinimumPathSum",
+            "program": "${workspaceFolder}/LeetcodeExcercices/MinimumPathSum.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "UniquePathWithObstacle",
+            "program": "${workspaceFolder}/LeetcodeExcercices/UniquePathWithObstacle.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "UniquePathUsingDynamicProgramming",
+            "program": "${workspaceFolder}/LeetcodeExcercices/UniquePathUsingDynamicProgramming.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "UniquePath",
+            "program": "${workspaceFolder}/LeetcodeExcercices/UniquePath.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RotateList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/RotateList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PermutationSequence",
+            "program": "${workspaceFolder}/LeetcodeExcercices/PermutationSequence.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ArrayNumberPermutation",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ArrayNumberPermutation.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "NextPermutation",
+            "program": "${workspaceFolder}/LeetcodeExcercices/NextPermutation.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "StringPermutationLexicographically",
+            "program": "${workspaceFolder}/LeetcodeExcercices/StringPermutationLexicographically.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CreateSpiralMatrix",
+            "program": "${workspaceFolder}/LeetcodeExcercices/CreateSpiralMatrix.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CountLastWordLength",
+            "program": "${workspaceFolder}/LeetcodeExcercices/CountLastWordLength.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "InsertIntervals",
+            "program": "${workspaceFolder}/LeetcodeExcercices/InsertIntervals.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "MergeIntervals",
+            "program": "${workspaceFolder}/LeetcodeExcercices/MergeIntervals.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "JumpGame",
+            "program": "${workspaceFolder}/LeetcodeExcercices/JumpGame.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SpiralPath",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SpiralPath.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindMaxSumOfSubArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindMaxSumOfSubArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "NQueens",
+            "program": "${workspaceFolder}/LeetcodeExcercices/NQueens.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "PowTask",
+            "program": "${workspaceFolder}/LeetcodeExcercices/PowTask.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "IsAnagram",
+            "program": "${workspaceFolder}/LeetcodeExcercices/IsAnagram.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RotateImage",
+            "program": "${workspaceFolder}/LeetcodeExcercices/RotateImage.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindThreeSumClothestToTarget",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindThreeSumClothestToTarget.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ValidSudoku",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ValidSudoku.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SearchInsertPosition",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SearchInsertPosition.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindFirstAndLastPositionOfElementInArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindFirstAndLastPositionOfElementInArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "DivideTwoIntegers",
+            "program": "${workspaceFolder}/LeetcodeExcercices/DivideTwoIntegers.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "HaystackNeedle",
+            "program": "${workspaceFolder}/LeetcodeExcercices/HaystackNeedle.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RemoveDuplicatesFromSortedArray",
+            "program": "${workspaceFolder}/LeetcodeExcercices/RemoveDuplicatesFromSortedArray.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SwapNodesInPairs",
+            "program": "${workspaceFolder}/LeetcodeExcercices/SwapNodesInPairs.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "RemoveNthNodeFromEndOfList",
+            "program": "${workspaceFolder}/LeetcodeExcercices/RemoveNthNodeFromEndOfList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindTheThreeSum",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindTheThreeSum.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindCommonPrefixStringInTheBeginning",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindCommonPrefixStringInTheBeginning.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindCommonPrefixFromArrayOfStrings",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindCommonPrefixFromArrayOfStrings.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Find longest prefix from two strings",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindCommonPrefixFromTwoStrings.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Find longest prefix",
+            "program": "${workspaceFolder}/LeetcodeExcercices/LongestCommonPrefix.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "IsNumberPolindrom",
+            "program": "${workspaceFolder}/LeetcodeExcercices/isNumberPolindrom.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FindMaxWaterArea",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindMaxAreaOfWater.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ReverseInteger",
+            "program": "${workspaceFolder}/LeetcodeExcercices/ReverseInteger.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Longest Pollindrom String",
+            "program": "${workspaceFolder}/LeetcodeExcercices/longestPolindrom.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Median Of Two Arrays",
+            "program": "${workspaceFolder}/LeetcodeExcercices/MedianOfTwoArrays.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/LeetcodeExcercices/FindLongestSubstring.js"
+        }
+    ]
+}
