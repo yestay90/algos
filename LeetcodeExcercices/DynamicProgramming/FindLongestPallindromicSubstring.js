@@ -1,6 +1,6 @@
 
 console.log('starting pallindrom problem')
-let answer = findPallindrom('ccc');
+let answer = findPallindrom('abba');
 console.log('answer', answer);
 
 function findPallindrom(s){
@@ -9,75 +9,34 @@ function findPallindrom(s){
         return ""
     }
 
-    let max = 1; 
-    var str = s[0]; 
+    var centerPoint = 0
+    var max = 1
+    var isOdd = true 
 
     for (var i = 0; i < s.length; i++){
-       let left = i - 1
-       let right = i + 1 
-
-       console.log('left side:', left)
-       console.log('right side:', right)
-
        
-
-       // if all words are the same like example 'aaaaaa'
-       while (right < s.length){
-           if (s[i] == s[right] && s.substring(i, right + 1).length > max){
-                console.log('found two letters comb')
-                max = s.substring(i, right + 1).length
-                str = s.substring(i, right + 1)
-                right++
-           }else {
-               break 
-           }
-       }
-       // if all words are the same like example 'aaaaaa'
-       
-       // check if words has odd numbers
-       if (s[i] == s[right]){
-         left = i 
-       }
-
-       while (left >= 0 && right < s.length && s[left] === s[right]){
-           console.log('found pallindrom');
-           let temp = s.substring(left, right + 1)
-           console.log(s.substring(left, right + 1)); 
-           
-           if (temp.length > max){
-               str = s.substring(left, right + 1)
-           }
-           max = str.length
-           left--
-           right++
-       }
-       // check if words has odd numbers
-
-       // check if words has 
-    }
-
-    return str 
-
-
-    function isPallindrom(text){
-        if (text.length == 1){
-            return true 
-        }
-
-        var left = 0
-        var right = text.length - 1 
-        
-        while (right > left){
-            
-            if (text[right] !== text[left]){
-                return false 
+        let j = 1 ;
+        while (i - j >= 0 && i + j <= s.length - 1 && s[i - j] === s[i + j]){
+            // odd case 
+            if (j * 2 + 1 > max){
+                max = j * 2 + 1
+                centerPoint = i  
+                isOdd = true 
             }
-
-            left++
-            right--
+            j++; 
         }
-        
-
-        return true 
+     
+        j = 1; 
+        while ((i - j + 1) >= 0 && (i + j) <= s.length - 1 && s[i - j + 1] === s[i + j]){
+            if (j * 2 > max){
+                max = j * 2;
+                centerPoint = i;
+                isOdd = false 
+            }
+            j++;
+        }
     }
+
+    if (!isOdd) return s.substring(centerPoint - (max - 1)/2, centerPoint + (max - 1)/2 + 1) 
+    return s.substring(centerPoint - max/2 + 1, centerPoint + (max)/2 + 1)
 }
